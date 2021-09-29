@@ -6,65 +6,179 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!-- <link rel="stylesheet" href="./normalize.css"> -->
-  <!-- <link rel="stylesheet" href="./assets/scss/main.scss"> -->
+  <link rel="stylesheet" href="../dist/assets/css/style.min.css" />
   <title>Document</title>
 </head>
 
 <body>
-  <main class="main">
-    <header class="header">
-      <ul class="header__list">
-        <li class="header__item"><a class="header__link" href="#">Home</a></li>
-        <li class="header__item"><a class="header__link" href="#">Blog</a></li>
-        <li class="header__item"><a class="header__link" href="#">Features</a></li>
-        <li class="header__item"><a class="header__link" href="#">Pricing</a></li>
-        <li class="header__item"><a class="header__link" href="#">Documentation</a></li>
+  <header class="header">
+    <nav class="nav">
+      <img class="nav__logo" src="" alt="">
+      <ul class="nav__list">
+        <li class="nav__item"><a class="nav__link" href="#">Home</a></li>
+        <li class="nav__item"><a class="nav__link" href="#">Blog</a></li>
+        <li class="nav__item"><a class="nav__link" href="#">Features</a></li>
+        <li class="nav__item"><a class="nav__link" href="#">Pricing</a></li>
+        <li class="nav__item"><a class="nav__link" href="#">Documentation</a></li>
       </ul>
-      <ul class="header__roster">
-        <li><a href="#"><img src=""></a></li>
-        <li><a href="#"><img src=""></a></li>
-        <li><a href="#"><img src=""></a></li>
-        <li><a href="#"><img src=""></a></li>
+      <ul class="nav__roster">
+        <li class="nav__item"><a class="nav__icon" href="#"><img src=""></a></li>
+        <li class="nav__item"><a class="nav__icon" href="#"><img src=""></a></li>
+        <li class="nav__item"><a class="nav__icon" href="#"><img src=""></a></li>
+        <li class="nav__item"><a class="nav__icon" href="#"><img src=""></a></li>
       </ul>
-      <button>Get started
+      <button class="nav__button">Get started
       </button>
-      <h3>
-        PLAN YOUR LIFE
-      </h3>
-      <h1>Increase your <strong>productivity</strong> </h1>
-      <p>
-        Brute laoreet efficiendi id his, ea illum nonumes luptatum pro. Usu atqui laudem an, insolens gubergren
-        similique est cu. Et vel modus congue vituperata.
+    </nav>
+    <h3 class="header__subtitle text">
+      PLAN YOUR LIFE
+    </h3>
+    <h1 class="header__title text">Increase your <strong>productivity</strong> </h1>
+    <p class="header__text text">
+      Brute laoreet efficiendi id his, ea illum nonumes luptatum pro. Usu atqui laudem an, insolens gubergren
+      similique est cu. Et vel modus congue vituperata.
+    </p>
+    <div class="header__pictures">
+      <img class="header__img" src="" alt="">
+      <img class="header__img" src="" alt="">
+      <img class="header__img" src="" alt="">
+      <img class="header__img" src="" alt="">
+      <img class="header__img" src="" alt="">
+    </div>
+  </header>
+  <section class="plan">
+    <div class="plan__wrap">
+      <h3 class="plan__subtitle text">DESKTOP AND MOBILE APP</h3>
+      <h1 class="plan__title text"> <strong>Plan</strong> and <strong>manage</strong></h1>
+      <p class="plan__text text">Brute laoreet efficiendi id his, ea illum nonumes luptatum pro. Usu atqui laudem an,
+        insolens gubergren
+        similique est cu. Et vel modus congue vituperata. Solum patrioque no sea. Mea ex malis mollis oporteat. Eum an
+        expetenda consequat.</p>
+      <div class="plan__btn">
+        <button class="plan__btn--left text">View video</button>
+        <button class="plan__btn--right text">See features</button>
+      </div>
+    </div>
+    <div class="plan__pictures">
+      <img class="plan__img" src="" alt="">
+      <img class="plan__img" src="" alt="">
+      <img class="plan__img" src="" alt="">
+      <img class="plan__img" src="" alt="">
+    </div>
+  </section>
+  <section class="features">
+    <h3 class="features__subtitle text">ABOUT US</h3>
+    <h1 class="features__title text">Read about our app</h1>
+    <div>
+      <div class="features__wrapper">
+        <img class="features__img" src="" alt="">
+        <h3 class="features__desc text">Overview</h3>
+        <p class="features__text text">Brute laoreet efficiendi id his, ea illum nonumes luptatum pro.</p>
+      </div>
+      <div>
+        <img class="features__img" src="" alt="">
+        <h3 class="features__desc text">Files</h3>
+        <p class="features__text text">No vim nulla vitae intellegat. Ei enim error ius, solet atomorum conceptam ex
+          has.</p>
+      </div>
+      <div>
+        <img class="features__img" src="" alt="">
+        <h3 class="features__desc text">Meeting chats</h3>
+        <p class="features__text text">Vim ne tacimates neglegentur. Erat diceret omittam at est.</p>
+      </div>
+      <div>
+        <img class="features__img" src="" alt="">
+        <h3 class="features__desc text">Save events</h3>
+        <p class="features__text text">Nisl idque mel ea, nominati voluptatum.
+        </p>
+      </div>
+      <div class="features__btn">
+        <button class="features__btn--left">Read more</button>
+        <button class="features__btn--right">Get started</button>
+      </div>
+    </div>
+  </section>
+  <section class="stats">
+    <div class="stats__wrap--left">
+      <img class="stats__img--left" src="" alt="">
+      <h1 class="stats__title--left text">89%</h1>
+      <p class="stats__text--left text">Customers who have increased their productivity</p>
+    </div>
+    <div class="stats__wrap--right">
+      <img class="stats__img--right" src="" alt="">
+      <h1 class="stats__title--right text">3123</h1>
+      <p class="stats__text--right text">Users who have used our application</p>
+    </div>
+  </section>
+  <section class="blog">
+    <h3 class="blog__subtitle">OUR RESOURCES</h3>
+    <h1 class="blog__title">Start reading our blog</h1>
+    <div class="blog__slider"></div>
+  </section>
+  <section class="quotes">
+    <div class="quotes__wrap">
+      <h3 class="quotes__subtitle text">TESTIMONIALS</h3>
+      <h1 class="quotes__title text">Customers's quotes</h1>
+      <p class="quotes__text text">Brute laoreet efficiendi id his, ea illum nonumes luptatum pro. Usu atqui laudem an.
       </p>
-      <div>
-        <img src="" alt="">
-        <img src="" alt="">
-        <img src="" alt="">
-        <img src="" alt="">
-        <img src="" alt="">
-      </div>
-    </header>
-    <section>
-      <div>
-        <h3>DESKTOP AND MOBILE APP</h3>
-        <h1> <strong>Plan</strong> and <strong>manage</strong></h1>
-        <p>Brute laoreet efficiendi id his, ea illum nonumes luptatum pro. Usu atqui laudem an, insolens gubergren
-          similique est cu. Et vel modus congue vituperata. Solum patrioque no sea. Mea ex malis mollis oporteat. Eum an
-          expetenda consequat.</p>
-        <div>
-          <button>View video</button>
-          <button>See features</button>
-        </div>
-      </div>
-      <div>
-        <img src="" alt="">
-        <img src="" alt="">
-        <img src="" alt="">
-        <img src="" alt="">
-      </div>
-    </section>
-  </main>
-
+    </div>
+    <div class="quotes__slider"></div>
+  </section>
+  <section class="faq">
+    <h3 class="faq__subtitle text">Customer help</h3>
+    <h1 class="faq__title text">Frequently asked questions</h1>
+    <div class="faq__wrap">
+      <p class="faq__text text">Reque insolens in vel?</p>
+      <p class="faq__text text">Vis rebum error graecis ea, id sit postea accusamus?</p>
+      <p class="faq__text text">Lorem repudiandae ne nec?</p>
+      <p class="faq__text text">Ad dicit numquam vel. Et eos iudico feugait percipitur?</p>
+      <p class="faq__text text">Sea no dico percipitur. Fierent constituam definitiones id eum?</p>
+    </div>
+  </section>
+  <section class="getstarted">
+    <h3 class="getstarted__subtitle text">PLAN YOUR LIFE</h3>
+    <h1 class="getstarted__title text">Get <strong> started</strong> now</h1>
+    <p class="getstarted__text text">Brute laoreet efficiendi id his, ea illum nonumes luptatum pro. Usu atqui laudem
+      an, insolens gubergren similique est cu. Et vel modus congue vituperata.</p>
+    <div class="getstarted__btn">
+      <button class="getstarted__btn--left">View pricing</button>
+      <button class="getstarted__btn--right">Read documentation</button>
+    </div>
+  </section>
+  <section class="newstetter">
+    <div class="newstetter__wrap--left">
+      <h2 class="newstetter__subtitle text">Sign up for newsletter</h2>
+      <p class="newstetter__text text">Cu qui soleat partiendo urbanitas. Eum aperiri indoctum eu, homero alterum.</p>
+    </div>
+    <div class="newstetter__wrap--right">
+      <form class="newstetter__form">
+        <input class="newstetter__input" type="imail" name="imail" placeholder="Email address">
+        <button class="newstetter__btn">Save me</button>
+      </form>
+    </div>
+  </section>
+  <footer class="footer">
+    <nav class="nav">
+      <img class="nav__logo" src="" alt="">
+      <ul class="nav__list">
+        <li class="nav__item"><a class="nav__link" href="#">Home</a></li>
+        <li class="nav__item"><a class="nav__link" href="#">Blog</a></li>
+        <li class="nav__item"><a class="nav__link" href="#">Features</a></li>
+        <li class="nav__item"><a class="nav__link" href="#">Pricing</a></li>
+        <li class="nav__item"><a class="nav__link" href="#">Documentation</a></li>
+      </ul>
+      <ul class="nav__roster">
+        <li class="nav__item"><a class="nav__icon" href="#"><img src=""></a></li>
+        <li class="nav__item"><a class="nav__icon" href="#"><img src=""></a></li>
+        <li class="nav__item"><a class="nav__icon" href="#"><img src=""></a></li>
+        <li class="nav__item"><a class="nav__icon" href="#"><img src=""></a></li>
+      </ul>
+      <button class="nav__button">Get started
+      </button>
+    </nav>
+    <small class="footer__small">Copyright © 2018 by Random site
+    </small>
+  </footer>
 
 </body>
 
